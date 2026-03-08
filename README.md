@@ -4,24 +4,24 @@ Un'applicazione web semplice e veloce per cercare i profili degli utenti su GitH
 
 Questo progetto è nato come esercizio pratico per padroneggiare la programmazione asincrona in JavaScript moderno.
 
-## 🚀 Demo
+## Demo
 
 Puoi visualizzare il progetto live qui: [[Link alla Demo]](https://aledev2026.github.io/FindGitHubUser/)
 
-## 🚀 Caratteristiche
+## Caratteristiche
 
 - **Ricerca in tempo reale:** Recupero rapido dei dati dell'utente tramite la funzione `fetch`.
 - **Aggiornamento dinamico del DOM:** I risultati (Nome, Login, Followers, Following) vengono stampati direttamente sulla pagina.
 - **Gestione degli Errori:** Gestione pulita dei casi in cui l'utente non esiste (Errore 404), con la comparsa di un messaggio personalizzato a schermo.
 - **Sintassi Moderna:** Utilizzo esclusivo di `async/await` e blocchi `try...catch` per un codice pulito, leggibile e professionale.
 
-## 🛠️ Tecnologie Utilizzate
+## Tecnologie Utilizzate
 
 - **HTML5** - Per la struttura dell'interfaccia.
 - **Vanilla JavaScript** - Per la logica, le chiamate di rete e la manipolazione del DOM.
 - **GitHub REST API** - Per recuperare i dati in formato JSON (`https://api.github.com/users/{username}`).
 
-## 💻 Come avviare il progetto localmente
+## Come avviare il progetto localmente
 
 Trattandosi di un progetto puramente frontend senza dipendenze (niente Node.js o NPM), avviarlo è semplicissimo:
 
